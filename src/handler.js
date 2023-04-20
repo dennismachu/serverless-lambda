@@ -8,6 +8,7 @@ module.exports.generateRandomNumber = async (event) => {
     body: JSON.stringify(
       {
         message: 'Go Serverless v1.0! Your function executed successfully!',
+        result: randomNumber,
         input: event,
       },
       null,
